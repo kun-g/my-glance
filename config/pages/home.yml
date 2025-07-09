@@ -20,14 +20,6 @@
             - url: https://ishadeed.com/feed.xml
               title: Ahmad Shadeed
 
-        - type: twitch-channels
-          channels:
-            - theprimeagen
-            - j_blow
-            - piratesoftware
-            - cohhcarnage
-            - christitustech
-            - EJ_SA
 
     - size: full
       widgets:
@@ -69,6 +61,16 @@
           # Optionally hide the location from being displayed in the widget
           # hide-location: true
 
+        - type: clock
+          hour-format: 24h
+          timezones:
+            - timezone: Europe/Paris
+              label: 巴黎
+            - timezone: America/New_York
+              label: 纽约
+            - timezone: America/Sao_Paulo
+              label: 圣保罗
+
         - type: releases
           cache: 1d
           # Without authentication the Github API allows for up to 60 requests per hour. You can create a
@@ -76,10 +78,11 @@
           # token: ...
           repositories:
             - glanceapp/glance
+            - Dokploy/dokploy
+            - dgtlmoon/changedetection.io
             - home-assistant/core
             - immich-app/immich
             - syncthing/syncthing
-            - Dokploy/dokploy
 
         # - type: rss
         #   limit: 10
