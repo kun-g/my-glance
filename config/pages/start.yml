@@ -33,8 +33,10 @@
             - title: General
               links:
                 - title: Gmail
+                  icon: si:google
                   url: https://mail.google.com/mail/u/0/
                 - title: Amazon
+                  icon: si:gmail
                   url: https://www.amazon.com/
                 - title: Github
                   url: https://github.com/
