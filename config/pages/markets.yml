@@ -74,9 +74,17 @@
         - type: group
           widgets:
             - type: reddit
+              app-auth:
+                name: ${REDDIT_APP_NAME}
+                id: ${REDDIT_APP_CLIENT_ID}
+                secret: ${REDDIT_APP_SECRET}
               show-thumbnails: true
               subreddit: technology
             - type: reddit
+              app-auth:
+                name: ${REDDIT_APP_NAME}
+                id: ${REDDIT_APP_CLIENT_ID}
+                secret: ${REDDIT_APP_SECRET}
               show-thumbnails: true
               subreddit: wallstreetbets
 

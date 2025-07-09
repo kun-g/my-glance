@@ -1,4 +1,4 @@
-- name: Home
+- name: AI
   columns:
     - size: small
       widgets:
