@@ -2,4 +2,4 @@ pages:
   - $include: pages/start.yml
   - $include: pages/home.yml
   - $include: pages/gaming.yml
-  # - $include: pages/markets.yml
+  - $include: pages/markets.yml
