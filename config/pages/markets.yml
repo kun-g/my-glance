@@ -3,13 +3,11 @@
     - type: markets
       hide-header: true
       markets:
-        - symbol: BTC-USD
-          name: Bitcoin
         - symbol: DOGE-USD
           name: Dogecoin
         - symbol: ETH-USD
           name: Ethereum
-        - symbol: GOLD-RMB
+        - symbol: GOLD-CNY
           name: Gold
         - symbol: CNY-USD
           name: CNY
