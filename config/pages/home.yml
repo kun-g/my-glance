@@ -2,8 +2,9 @@
   columns:
     - size: small
       widgets:
-        - type: calendar
-          first-day-of-week: monday
+        - type: change-detection
+          instance-url: https://changedetection.flashflock.com/
+          token: ${CHANGE_DETECTION_TOKEN}
 
         - type: rss
           limit: 10
