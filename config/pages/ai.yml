@@ -1,14 +1,17 @@
 - name: Home
   columns:
     - size: small
-      - type: videos
-        channels:
-          - UCrDwWp7EBBv4NwvScIpBDOA # Anthropic
+      widgets:
+        - type: videos
+          channels:
+            - UCrDwWp7EBBv4NwvScIpBDOA # Anthropic
     - size: small
-      - type: videos
-        channels:
-          - UCrDwWp7EBBv4NwvScIpBDOA # Anthropic
+      widgets:
+        - type: videos
+          channels:
+            - UCrDwWp7EBBv4NwvScIpBDOA # Anthropic
     - size: small
-      - type: videos
-        channels:
-          - UCrDwWp7EBBv4NwvScIpBDOA # Anthropic
+      widgets:
+        - type: videos
+          channels:
+            - UCrDwWp7EBBv4NwvScIpBDOA # Anthropic
