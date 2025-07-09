@@ -11,7 +11,7 @@
             - title: Glance
               links:
                 - title: Home
-                  icon: si:glance
+                  icon: sh:glance
                   url: https://glance.flashflock.com/home
                 - title: Gaming
                   icon: si:gamepad
