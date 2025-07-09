@@ -44,24 +44,21 @@
             - UCBJycsmduvYEL83R_U4JriQ # Marques Brownlee
             - UCHnyfMqiRRG1u-2MsSQLbXA # Veritasium
             - UCMUnInmOkrWN4gof9KlhNmQ # 老高與小茉
-            - UCrDwWp7EBBv4NwvScIpBDOA # Anthropic
 
         - type: group
+          define: &shared-properties
+            type: reddit
+            show-thumbnails: true
+            collapse-after: 6
+            app-auth:
+              name: ${REDDIT_APP_NAME}
+              id: ${REDDIT_APP_CLIENT_ID}
+              secret: ${REDDIT_APP_SECRET}
           widgets:
-            - type: reddit
-              app-auth:
-                name: ${REDDIT_APP_NAME}
-                id: ${REDDIT_APP_CLIENT_ID}
-                secret: ${REDDIT_APP_SECRET}
-              subreddit: technology
-              show-thumbnails: true
-            - type: reddit
-              subreddit: selfhosted
-              show-thumbnails: true
-              app-auth:
-                name: ${REDDIT_APP_NAME}
-                id: ${REDDIT_APP_CLIENT_ID}
-                secret: ${REDDIT_APP_SECRET}
+            - subreddit: technology
+              <<: *shared-properties
+            - subreddit: selfhosted
+              <<: *shared-properties
 
     - size: small
       widgets:

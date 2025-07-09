@@ -15,12 +15,23 @@
     - size: full
       widgets:
         - type: group
+          define: &shared-properties
+            type: reddit
+            show-thumbnails: true
+            collapse-after: 6
+            limit: 7
+            style: vertical-cards
+            app-auth:
+              name: ${REDDIT_APP_NAME}
+              id: ${REDDIT_APP_CLIENT_ID}
+              secret: ${REDDIT_APP_SECRET}
           widgets:
-            - type: reddit
-              show-thumbnails: true
-              subreddit: pcgaming
-            - type: reddit
-              subreddit: games
+            - subreddit: pcgaming
+              <<: *shared-properties
+            - subreddit: games
+              <<: *shared-properties
+            - subreddit: gamingnews
+              <<: *shared-properties
 
         - type: videos
           style: grid-cards
@@ -33,10 +44,23 @@
 
     - size: small
       widgets:
-        - type: reddit
-          subreddit: gamingnews
-          limit: 7
-          style: vertical-cards
+        - type: custom-api
+          title: Steam Specials
+          cache: 12h
+          url: https://store.steampowered.com/api/featuredcategories?cc=us
+          template: |
+            <ul class="list list-gap-10 collapsible-container" data-collapse-after="5">
+            {{ range .JSON.Array "specials.items" }}
+              <li>
+                <a class="size-h4 color-highlight block text-truncate" href="https://store.steampowered.com/app/{{ .Int "id" }}/">{{ .String "name" }}</a>
+                <ul class="list-horizontal-text">
+                  <li>{{ div (.Int "final_price" | toFloat) 100 | printf "$%.2f" }}</li>
+                  {{ $discount := .Int "discount_percent" }}
+                  <li{{ if ge $discount 40 }} class="color-positive"{{ end }}>{{ $discount }}% off</li>
+                </ul>
+              </li>
+            {{ end }}
+            </ul>
 
   branding:
     custom-footer: |
