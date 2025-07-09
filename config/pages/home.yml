@@ -82,6 +82,8 @@
             - glanceapp/glance
             - Dokploy/dokploy
             - dgtlmoon/changedetection.io
+            - automatisch/automatisch
+            - toeverything/Affine
             - home-assistant/core
             - immich-app/immich
             - syncthing/syncthing

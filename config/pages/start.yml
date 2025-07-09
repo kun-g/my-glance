@@ -14,7 +14,7 @@
                   icon: sh:glance
                   url: https://glance.flashflock.com/home
                 - title: Gaming
-                  icon: sh:Free Games Claimer
+                  icon: sh:Free-Games-Claimer
                   url: https://glance.flashflock.com/gaming
                 - title: Markets
                   icon: si:chart-line
@@ -33,6 +33,9 @@
                 - title: Checkmate
                   icon: sh:checkmate
                   url: https://checkmate.flashflock.com/
+                - title: Automatisch
+                  icon: sh:Automatisch
+                  url: https://automatisch.flashflock.com/
 
             - title: General
               links:
