@@ -5,31 +5,21 @@
   columns:
     - size: full
       widgets:
-        - type: monitor
-          cache: 1m
-          title: Services
-          sites:
-            - title: Jellyfin
-              url: https://yourdomain.com/
-              icon: si:jellyfin
-            - title: Gitea
-              url: https://yourdomain.com/
-              icon: si:gitea
-            - title: qBittorrent # only for Linux ISOs, of course
-              url: https://yourdomain.com/
-              icon: si:qbittorrent
-            - title: Immich
-              url: https://yourdomain.com/
-              icon: si:immich
-            - title: AdGuard Home
-              url: https://yourdomain.com/
-              icon: si:adguard
-            - title: Vaultwarden
-              url: https://yourdomain.com/
-              icon: si:vaultwarden
 
         - type: bookmarks
           groups:
+            - title: Glance
+              links:
+                - title: Home
+                  icon: si:glance
+                  url: https://glance.flashflock.com/home
+                - title: Gaming
+                  icon: si:gamepad
+                  url: https://glance.flashflock.com/gaming
+                - title: Markets
+                  icon: si:chart-line
+                  url: https://glance.flashflock.com/markets
+
             - title: General
               links:
                 - title: Gmail
@@ -39,20 +29,27 @@
                   icon: si:gmail
                   url: https://www.amazon.com/
                 - title: Github
+                  icon: si:github
                   url: https://github.com/
             - title: Entertainment
               links:
                 - title: YouTube
+                  icon: si:youtube
                   url: https://www.youtube.com/
                 - title: Prime Video
+                  icon: si:primevideo
                   url: https://www.primevideo.com/
                 - title: Disney+
+                  icon: si:disneyplus
                   url: https://www.disneyplus.com/
             - title: Social
               links:
                 - title: Reddit
+                  icon: si:reddit
                   url: https://www.reddit.com/
                 - title: Twitter
+                  icon: si:twitter
                   url: https://twitter.com/
                 - title: Instagram
+                  icon: si:instagram
                   url: https://www.instagram.com/
