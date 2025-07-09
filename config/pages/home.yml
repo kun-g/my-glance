@@ -43,6 +43,8 @@
             - UCsBjURrPoezykLs9EqgamOA # Fireship
             - UCBJycsmduvYEL83R_U4JriQ # Marques Brownlee
             - UCHnyfMqiRRG1u-2MsSQLbXA # Veritasium
+            - UCMUnInmOkrWN4gof9KlhNmQ # 老高與小茉
+            - UCrDwWp7EBBv4NwvScIpBDOA # Anthropic
 
         - type: group
           widgets:
@@ -74,11 +76,11 @@
             - syncthing/syncthing
             - Dokploy/dokploy
 
-        - type: rss
-          limit: 10
-          collapse-after: 3
-          cache: 12h
-          feeds:
-            - url: https://www.lennysnewsletter.com/sitemap.xml
-              title: Lennys Newsletter
-              limit: 10
+        # - type: rss
+        #   limit: 10
+        #   collapse-after: 3
+        #   cache: 12h
+        #   feeds:
+        #     - url: https://www.lennysnewsletter.com/sitemap.xml
+        #       title: Lennys Newsletter
+        #       limit: 10
