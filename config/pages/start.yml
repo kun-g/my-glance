@@ -14,7 +14,7 @@
                   icon: sh:glance
                   url: https://glance.flashflock.com/home
                 - title: Gaming
-                  icon: si:gamepad
+                  icon: sh:Free Games Claimer
                   url: https://glance.flashflock.com/gaming
                 - title: Markets
                   icon: si:chart-line
@@ -25,11 +25,14 @@
             - title: Tools
               links:
                 - title: Changedetection
-                  icon: si:changedetection
+                  icon: sh:changedetection
                   url: https://changedetection.flashflock.com/
                 - title: Dokploy
-                  icon: si:dokploy
+                  icon: sh:dokploy
                   url: https://flashflock.com/
+                - title: Checkmate
+                  icon: sh:checkmate
+                  url: https://checkmate.flashflock.com/
 
             - title: General
               links:
