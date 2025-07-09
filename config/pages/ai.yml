@@ -5,12 +5,7 @@
         - type: videos
           channels:
             - UCrDwWp7EBBv4NwvScIpBDOA # Anthropic
-    - size: small
-      widgets:
-        - type: videos
-          channels:
-            - UCrDwWp7EBBv4NwvScIpBDOA # Anthropic
-    - size: small
+    - size: full
       widgets:
         - type: videos
           channels:
