@@ -36,6 +36,10 @@
                 - title: Automatisch
                   icon: sh:Automatisch
                   url: https://automatisch.flashflock.com/
+                - title: Netbird
+                  icon: sh:Netbird
+                  url: https://netbird.blocktool.xyz/
+          
 
             - title: General
               links:
