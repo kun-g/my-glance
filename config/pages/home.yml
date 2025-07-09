@@ -49,11 +49,19 @@
         - type: group
           widgets:
             - type: reddit
+              app-auth:
+                name: ${REDDIT_APP_NAME}
+                id: ${REDDIT_APP_CLIENT_ID}
+                secret: ${REDDIT_APP_SECRET}
               subreddit: technology
               show-thumbnails: true
             - type: reddit
               subreddit: selfhosted
               show-thumbnails: true
+              app-auth:
+                name: ${REDDIT_APP_NAME}
+                id: ${REDDIT_APP_CLIENT_ID}
+                secret: ${REDDIT_APP_SECRET}
 
     - size: small
       widgets:
