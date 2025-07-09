@@ -5,9 +5,6 @@
   columns:
     - size: full
       widgets:
-        - type: search
-          autofocus: true
-
         - type: monitor
           cache: 1m
           title: Services
