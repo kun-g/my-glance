@@ -19,6 +19,9 @@
                 - title: Markets
                   icon: si:chart-line
                   url: https://glance.flashflock.com/markets
+                - title: Glance Docs
+                  icon: si:book
+                  url: https://github.com/glanceapp/glance/blob/main/docs/configuration.md
 
             - title: General
               links:

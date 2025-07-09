@@ -1,4 +1,21 @@
 - name: Markets
+  head-widgets:
+    - type: markets
+      hide-header: true
+      markets:
+        - symbol: BTC-USD
+          name: Bitcoin
+        - symbol: DOGE-USD
+          name: Dogecoin
+        - symbol: ETH-USD
+          name: Ethereum
+        - symbol: GOLD-RMB
+          name: Gold
+        - symbol: CNY-USD
+          name: CNY
+        - symbol: HKD-USD
+          name: HKD
+
   columns:
     - size: small
       widgets:

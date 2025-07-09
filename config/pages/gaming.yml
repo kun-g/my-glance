@@ -41,8 +41,8 @@
   branding:
     custom-footer: |
       <p>Powered by <a href="https://github.com/glanceapp/glance">Glance</a></p>
-    logo-url: /assets/logo.png
-    favicon-url: /assets/logo.png
+    # logo-url: /assets/logo.png
+    # favicon-url: /assets/logo.png
     app-name: "My Dashboard"
-    app-icon-url: "/assets/app-icon.png"
-    app-background-color: "#151519"
+    # app-icon-url: "/assets/app-icon.png"
+    # app-background-color: "#151519"
