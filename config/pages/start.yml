@@ -22,6 +22,7 @@
                 - title: Glance Docs
                   icon: si:book
                   url: https://github.com/glanceapp/glance/blob/main/docs/configuration.md
+
             - title: Tools
               links:
                 - title: Changedetection
@@ -63,6 +64,7 @@
                 - title: Disney+
                   icon: si:disneyplus
                   url: https://www.disneyplus.com/
+
             - title: Social
               links:
                 - title: Reddit
@@ -74,3 +76,12 @@
                 - title: Instagram
                   icon: si:instagram
                   url: https://www.instagram.com/
+
+            - title: 开发者社区
+              links:
+                - title: Forem
+                  icon: si:reddit
+                  url: https://forem.com/
+                - title: Dev.to
+                  icon: si:reddit
+                  url: https://dev.to/
