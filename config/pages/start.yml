@@ -85,3 +85,18 @@
                 - title: Dev.to
                   icon: si:reddit
                   url: https://dev.to/
+
+            - title: 工作
+              links:
+                - title: LambdaTheory - Discusses
+                  icon: si:github
+                  url: https://github.com/orgs/LambdaTheory/discussions
+                - title: LambdaTheory - 团队回顾
+                  icon: si:github
+                  url: https://github.com/orgs/LambdaTheory/projects/4
+                - title: LambdaTheory - 团队墙
+                  icon: si:github
+                  url: https://github.com/orgs/LambdaTheory/projects/3
+                - title: LambdaTheory
+                  icon: si:github
+                  url: https://github.com/LambdaTheory
